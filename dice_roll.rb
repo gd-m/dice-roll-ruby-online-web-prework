@@ -4,6 +4,7 @@
 
 def roll
   # code goes here
-  return rand 6
+  Array = [1,2,3,4,5,6]
+  return Array.shuffle.First
 
 end
